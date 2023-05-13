@@ -4,19 +4,21 @@
 
 `pip uninstall torch torchvision`
 
-然后下载[torch](https://pytorch.org/get-started/locally/)
+然后下载 [torch](https://pytorch.org/get-started/locally/)
 
 选择对应的环境获取下载地址
 
 例如：
+
 ```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
 安装完成后进入`python`
-使用
+
+测试
 ```python
 import torch
 torch.cuda.is_available()
 ```
-测试
+
